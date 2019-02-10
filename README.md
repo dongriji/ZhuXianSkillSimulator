@@ -1,6 +1,8 @@
 # ZhuXianSkillSimulator
 # 《诛仙3》19职业技能加点模拟器http://bbs.duowan.com/thread-46288601-1-1.html
 <br/><br/>
+## 用户版下载
+https://pan.baidu.com/s/1r86eKCmruaZ_xOEzaIOBMg
 ## 目录说明
 css：css文件，使用必须  
 image：主要图像存储文件夹，包含所有已使用为图片，使用必须  
