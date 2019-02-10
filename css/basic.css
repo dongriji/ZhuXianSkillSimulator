@@ -1,0 +1,1279 @@
+body{ background:url(../image/bg.jpg) no-repeat 50% 0px !important;}
+#game-entrance{ display:none !important;}
+
+
+.sim{ margin:0 auto; width:1000px; padding-top:25px; background:url(../image/sim_head.jpg) no-repeat;}
+.sim .sim-nav{ margin:0; height:175px; padding:15px 30px 0 30px; position:relative;}
+.sim .sim-nav span{font:25px/30px \5fae\8f6f\96c5\9ed1; float:left; color:#fff; margin-right:10px; display:inline;}
+.sim .sim-nav ul{ margin:0; padding:1px;}
+.sim .sim-nav li{float:left; width:72px; height:32px; margin-left:10px; display:inline; background:url(../image/sim_btn.png) no-repeat -144px 0;font:16px/32px \5fae\8f6f\96c5\9ed1; text-align:center; color:#fff;}
+.sim .sim-nav li a{background:url(../image/sim_btn.png) no-repeat -72px 0; display:block; color:#fff;}
+.sim .sim-nav li a:hover{ color:#ff0;background:url(../image/sim_btn.png) no-repeat;}
+.sim .sim-nav li .hover{background:url(../image/sim_btn.png) no-repeat; color:#ff0;}
+.sim .sim-nav .explain{position:absolute; width:345px; height:162px; right:10px; top:8px; background:#808080; color:#fff; padding:5px 10px; border:3px solid #5f686d;}
+.sim .sim-nav .explain a{ color:#ff0;}
+.sim .sim-nav .explain a:hover{ color:#f00;}
+.sim .skill{ height:40px; color:#fff; padding:25px 40px 0 40px;}
+.sim .skill input{ border:none; margin:0 5px;}
+
+.sim .skill .w165{ width:165px; display:inline-block;}
+.sim .skill .w120{ width:130px; display:inline-block;}
+.sim .skill .btn-submit{ margin-left:10px; color:#ff0; background:url(../image/sim_btn.png) no-repeat 0 -36px; width:84px; height:24px; display:inline-block; text-align:center; font-weight:bold; line-height:22px;}
+.sim .skill .w70{ width:74px; border:none; background:#7babbe; color:#fff; padding:0 2px;}
+.sim .skill .w20{ width:24px;border:none; background:#7babbe;color:#fff; padding:0 2px;}
+.sim .after{ height:40px; padding:0 40px; color:#fff; position:relative; line-height:25px;}
+.sim .after span{ color:#ff0; margin-right:5px;}
+.sim .select{ float:right; position:absolute; right:45px; bottom:15px;}
+.sim .select em{ margin-left:5px; color:#ff0;}
+
+
+
+
+
+
+/*
+ * 选项卡
+ * default
+ * */
+.mod-tabs-s1{zoom:1;position:relative;background:#2c5a6f url(../image/sim_bd.png) repeat-y; padding:1px 20px;}
+.mod-tabs-s1 .mod-tabs-hd{position:relative;height:43px;line-height:30px; background:url(../image/sim_tit.png) repeat-x; padding:0 10px;}
+.mod-tabs-s1 .mod-tabs-trigger{display:inline;float:left;}
+.mod-tabs-s1 .mod-tabs-trigger li{position:relative;cursor:pointer;float:left;width:110px;height:43px; margin-left:10px;font:18px/43px \5fae\8f6f\96c5\9ed1; text-align:center;background:url(../image/sim_btn.png) -110px -60px;color:#fff;}
+.mod-tabs-s1 .mod-tabs-trigger li.hover{padding-bottom:1px;background:url(../image/sim_btn.png) 0 -60px;color:#ff0;}/* 选项卡为点击切换时去掉padding-bottom */
+.mod-tabs-s1 .mod-tabs-bd{padding:10px;}
+
+/*
+ * 选项卡
+ * style2
+ * */
+.mod-tabs-s2{zoom:1;position:relative;width:300px; height:535px; background:url(../image/sim_c_bd.jpg) no-repeat;}
+.mod-tabs-s2 h3{font-size:14px;margin:0 10px; color:#fc3; text-align:center; line-height:27px;}
+.mod-tabs-s2 .act{ color:#9fc; margin:10px 15px;}
+.mod-tabs-s2 .mod-tabs-hd{position:relative;height:25px;line-height:25px; background:none; margin:10px 0 0 20px;}
+.mod-tabs-s2 .mod-tabs-trigger{display:inline;float:left;}
+.mod-tabs-s2 .mod-tabs-trigger li{position:relative;cursor:pointer;float:left;margin:0 10px 0 0;width:68px; height:26px; line-height:26px;font-size:14px;text-align:center;background:url(../image/sim_btn.png) -68px -103px;color:#75dbff;}
+.mod-tabs-s2 .mod-tabs-trigger li.hover{font-weight:bold;background:#fff;color:#ff0; background:url(../image/sim_btn.png) no-repeat 0 -103px;}
+.mod-tabs-s2 .mod-tabs-bd{ margin:0 auto; position:relative; padding:0; width:278px;}
+
+
+.box{width:300px; height:535px; background:url(../image/sim_c_bd.jpg) no-repeat; position:relative;}
+.box h3{font-size:14px;margin:0 10px; color:#fc3; text-align:center; line-height:27px;}
+.box h4{ margin:0 15px; color:#9fc; line-height:32px; font-size:14px;}
+.box .cont{ background:#9caab1; margin:0 10px;}
+.box .cont .pic{ background:#7a8fa1;}
+.box .cont .pic li{ margin:1px; width:36px; height:36px; border:1px solid #214361; background:#7b91a2; float:left; display:inline; overflow:hidden;}
+
+.box .act{ color:#9fc; margin:10px 15px;}
+.box .btn-c{ margin:0 auto; position:relative; width:279px; height:40px;}
+.box .btn-prev,
+.box .btn-next{display:block;width:14px;height:14px;position:absolute;top:10px;cursor:pointer;background:url(../image/bg_imagescroll.png) no-repeat;}
+.box .btn-prev{left:5px;}
+.box .btn-next{right:5px;background-position:-14px 0;}
+
+/* 九黎一重 */
+.jiuli{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/jiuli_one.jpg) no-repeat; position:relative;}
+.jiuli .jl{ position:absolute; width:52px; height:50px; text-align:center;}
+.jiuli .jl div{width:52px; height:45px; position:relative; padding-top:5px;}
+.jiuli .jl div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.jiuli .jl b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.jiuli .jl span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.jiuli .jl span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.jiuli .jl span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.jiuli .jl01{ top:20px; left:115px;}
+.jiuli .jl02{ top:80px; left:35px;}
+.jiuli .jl03{ top:80px; left:190px;}
+.jiuli .jl04{ top:100px; left:115px;}
+.jiuli .jl05{ top:160px; left:35px;}
+.jiuli .jl06{ top:160px; left:190px;}
+.jiuli .jl07{ top:190px; left:115px;}
+.jiuli .jl08{ top:235px; left:35px;}
+.jiuli .jl09{ top:235px; left:190px;}
+.jiuli .jl10{ top:280px; left:115px;}
+.jiuli .jl11{ top:315px; left:35px;}
+.jiuli .jl12{ top:315px; left:190px;}
+
+
+
+/* 九黎二/三/四重 */
+.jiuli2{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/jiuli_two.jpg) no-repeat; position:relative;}
+.jiuli2 .jl{ position:absolute; width:52px; height:50px; text-align:center;}
+.jiuli2 .jl div{width:52px; height:45px; position:relative; padding-top:5px;}
+.jiuli2 .jl div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.jiuli2 .jl b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.jiuli2 .jl span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.jiuli2 .jl span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.jiuli2 .jl span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.jiuli2 .jl01{ top:20px; left:115px;}
+.jiuli2 .jl02{ top:90px; left:35px;}
+.jiuli2 .jl03{ top:90px; left:185px;}
+.jiuli2 .jl04{ top:155px; left:115px;}
+.jiuli2 .jl05{ top:205px; left:35px;}
+.jiuli2 .jl06{ top:205px; left:185px;}
+.jiuli2 .jl07{ top:270px; left:115px;}
+.jiuli2 .jl08{ top:340px; left:35px;}
+.jiuli2 .jl09{ top:340px; left:185px;}
+
+/* 九黎五重 */
+.jiuli5{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/jiuli_five.jpg) no-repeat; position:relative;}
+.jiuli5 .jl{ position:absolute; width:52px; height:50px; text-align:center;}
+.jiuli5 .jl div{width:52px; height:45px; position:relative; padding-top:5px;}
+.jiuli5 .jl div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.jiuli5 .jl b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.jiuli5 .jl span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.jiuli5 .jl span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.jiuli5 .jl span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.jiuli5 .jl01{ top:20px; left:115px;}
+.jiuli5 .jl02{ top:200px; left:45px;}
+.jiuli5 .jl03{ top:200px; left:185px;}
+.jiuli5 .jl04{ top:270px; left:115px;}
+
+
+/* 天脉/战魂/血躯定位 */
+.tianmai{padding:0; width:278px; height:434px; background:url(../image/jiuli_tianmai.jpg) no-repeat;  position:relative;}
+.tianmai .tm{ position:absolute; width:52px; height:50px; text-align:center;}
+.tianmai .tm div{width:52px; height:45px; position:relative; padding-top:5px;}
+.tianmai .tm div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.tianmai .tm b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.tianmai .tm span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.tianmai .tm span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.tianmai .tm span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.tianmai .tm01{ top:10px; left:5px;}
+.tianmai .tm02{ top:10px; left:112px;}
+.tianmai .tm03{ top:10px; left:218px;}
+.tianmai .tm04{ top:90px; left:60px;}
+.tianmai .tm05{ top:90px; left:112px;}
+.tianmai .tm06{ top:90px; left:164px;}
+.tianmai .tm07{ top:170px; left:5px;}
+.tianmai .tm08{ top:170px; left:112px;}
+.tianmai .tm09{ top:170px; left:218px;}
+.tianmai .tm10{ top:245px; left:5px;}
+.tianmai .tm11{ top:245px; left:60px;}
+.tianmai .tm12{ top:245px; left:112px;}
+.tianmai .tm13{ top:245px; left:164px;}
+.tianmai .tm14{ top:245px; left:218px;}
+.tianmai .tm15{ top:340px; left:60px;}
+.tianmai .tm16{ top:340px; left:112px;}
+.tianmai .tm17{ top:340px; left:164px;}
+
+/* 花仙/弓神/兽王定位 */
+.huaxian{padding:0; width:278px; height:434px; background:url(../image/lieshan_huaxian.jpg) no-repeat;  position:relative;}
+.huaxian .hx{ position:absolute; width:52px; height:50px; text-align:center;}
+.huaxian .hx div{width:52px; height:45px; position:relative; padding-top:5px;}
+.huaxian .hx div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.huaxian .hx b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.huaxian .hx span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.huaxian .hx span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.huaxian .hx span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.huaxian .hx01{ top:10px; left:3px;}
+.huaxian .hx02{ top:10px; left:60px;}
+.huaxian .hx03{ top:10px; left:110px;}
+.huaxian .hx04{ top:10px; left:162px;}
+.huaxian .hx05{ top:10px; left:218px;}
+.huaxian .hx06{ top:90px; left:60px;}
+.huaxian .hx07{ top:90px; left:112px;}
+.huaxian .hx08{ top:90px; left:164px;}
+.huaxian .hx09{ top:170px; left:60px;}
+.huaxian .hx10{ top:170px; left:112px;}
+.huaxian .hx11{ top:170px; left:164px;}
+.huaxian .hx12{ top:245px; left:3px;}
+.huaxian .hx13{ top:245px; left:60px;}
+.huaxian .hx14{ top:245px; left:110px;}
+.huaxian .hx15{ top:245px; left:162px;}
+.huaxian .hx16{ top:245px; left:218px;}
+.huaxian .hx17{ top:330px; left:110px;}
+
+/* 天刃/地影/影舞定位 */
+.tianren{padding:0; width:278px; height:434px; background:url(../image/huaiguan_tr.jpg) no-repeat;  position:relative;}
+.tianren .tr{ position:absolute; width:52px; height:50px; text-align:center;}
+.tianren .tr div{width:52px; height:45px; position:relative; padding-top:5px;}
+.tianren .tr div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.tianren .tr b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.tianren .tr span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.tianren .tr span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.tianren .tr span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.tianren .tr01{ top:10px; left:3px;}
+.tianren .tr02{ top:10px; left:110px;}
+.tianren .tr03{ top:10px; left:218px;}
+.tianren .tr04{ top:90px; left:3px;}
+.tianren .tr05{ top:90px; left:110px;}
+.tianren .tr06{ top:90px; left:218px;}
+.tianren .tr07{ top:170px; left:3px;}
+.tianren .tr08{ top:170px; left:110px;}
+.tianren .tr09{ top:170px; left:218px;}
+.tianren .tr10{ top:250px; left:3px;}
+.tianren .tr11{ top:250px; left:55px;}
+.tianren .tr12{ top:250px; left:108px;}
+.tianren .tr13{ top:250px; left:162px;}
+.tianren .tr14{ top:250px; left:218px;}
+.tianren .tr15{ top:330px; left:3px;}
+.tianren .tr16{ top:330px; left:110px;}
+.tianren .tr17{ top:330px; left:218px;}
+
+/* 地影/影舞定位 */
+.diying{padding:0; width:278px; height:434px; background:url(../image/huaiguan_dy.jpg) no-repeat;  position:relative;}
+.diying .dy{ position:absolute; width:52px; height:50px; text-align:center;}
+.diying .dy div{width:52px; height:45px; position:relative; padding-top:5px;}
+.diying .dy div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.diying .dy b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.diying .dy span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.diying .dy span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.diying .dy span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.diying .dy01{ top:10px; left:3px;}
+.diying .dy02{ top:10px; left:110px;}
+.diying .dy03{ top:10px; left:218px;}
+.diying .dy04{ top:90px; left:3px;}
+.diying .dy05{ top:90px; left:110px;}
+.diying .dy06{ top:90px; left:218px;}
+.diying .dy07{ top:170px; left:3px;}
+.diying .dy08{ top:170px; left:110px;}
+.diying .dy09{ top:170px; left:218px;}
+.diying .dy10{ top:250px; left:3px;}
+.diying .dy11{ top:250px; left:55px;}
+.diying .dy12{ top:250px; left:108px;}
+.diying .dy13{ top:250px; left:162px;}
+.diying .dy14{ top:250px; left:218px;}
+.diying .dy15{ top:330px; left:3px;}
+.diying .dy16{ top:330px; left:110px;}
+.diying .dy17{ top:330px; left:218px;}
+
+/* 雅天定位 */
+.yatian{padding:0; width:278px; height:434px; background:url(../image/tianhua_yt.jpg) no-repeat;  position:relative;}
+.yatian .yt{ position:absolute; width:52px; height:50px; text-align:center;}
+.yatian .yt div{width:52px; height:45px; position:relative; padding-top:5px;}
+.yatian .yt div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.yatian .yt b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.yatian .yt span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.yatian .yt span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.yatian .yt span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.yatian .yt01{ top:15px; left:15px;}
+.yatian .yt02{ top:15px; left:80px;}
+.yatian .yt03{ top:15px; left:140px;}
+.yatian .yt04{ top:15px; left:210px;}
+.yatian .yt05{ top:95px; left:15px;}
+.yatian .yt06{ top:95px; left:80px;}
+.yatian .yt07{ top:95px; left:140px;}
+.yatian .yt08{ top:95px; left:210px;}
+.yatian .yt09{ top:170px; left:15px;}
+.yatian .yt10{ top:170px; left:80px;}
+.yatian .yt11{ top:170px; left:140px;}
+.yatian .yt12{ top:170px; left:210px;}
+.yatian .yt13{ top:250px; left:15px;}
+.yatian .yt14{ top:250px; left:80px;}
+.yatian .yt15{ top:250px; left:140px;}
+.yatian .yt16{ top:250px; left:210px;}
+.yatian .yt17{ top:330px; left:15px;}
+
+/* 风天定位 */
+.fengtian{padding:0; width:278px; height:434px; background:url(../image/tianhua_ft.jpg) no-repeat;  position:relative;}
+.fengtian .ft{ position:absolute; width:52px; height:50px; text-align:center;}
+.fengtian .ft div{width:52px; height:45px; position:relative; padding-top:5px;}
+.fengtian .ft div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.fengtian .ft b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.fengtian .ft span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.fengtian .ft span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.fengtian .ft span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.fengtian .ft01{ top:15px; left:15px;}
+.fengtian .ft02{ top:15px; left:80px;}
+.fengtian .ft03{ top:15px; left:140px;}
+.fengtian .ft04{ top:15px; left:210px;}
+.fengtian .ft05{ top:95px; left:15px;}
+.fengtian .ft06{ top:95px; left:80px;}
+.fengtian .ft07{ top:95px; left:140px;}
+.fengtian .ft08{ top:95px; left:210px;}
+.fengtian .ft09{ top:170px; left:15px;}
+.fengtian .ft10{ top:170px; left:80px;}
+.fengtian .ft11{ top:170px; left:140px;}
+.fengtian .ft12{ top:170px; left:210px;}
+.fengtian .ft13{ top:250px; left:15px;}
+.fengtian .ft14{ top:250px; left:80px;}
+.fengtian .ft15{ top:250px; left:140px;}
+.fengtian .ft16{ top:250px; left:210px;}
+.fengtian .ft17{ top:330px; left:210px;}
+
+/* 颂天定位 */
+.songtian{padding:0; width:278px; height:434px; background:url(../image/tianhua_st.jpg) no-repeat;  position:relative;}
+.songtian .st{ position:absolute; width:52px; height:50px; text-align:center;}
+.songtian .st div{width:52px; height:45px; position:relative; padding-top:5px;}
+.songtian .st div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.songtian .st b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.songtian .st span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.songtian .st span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.songtian .st span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.songtian .st01{ top:15px; left:15px;}
+.songtian .st02{ top:15px; left:80px;}
+.songtian .st03{ top:15px; left:140px;}
+.songtian .st04{ top:15px; left:210px;}
+.songtian .st05{ top:95px; left:15px;}
+.songtian .st06{ top:95px; left:80px;}
+.songtian .st07{ top:95px; left:140px;}
+.songtian .st08{ top:95px; left:210px;}
+.songtian .st09{ top:170px; left:15px;}
+.songtian .st10{ top:170px; left:80px;}
+.songtian .st11{ top:170px; left:140px;}
+.songtian .st12{ top:170px; left:210px;}
+.songtian .st13{ top:250px; left:15px;}
+.songtian .st14{ top:250px; left:80px;}
+.songtian .st15{ top:250px; left:140px;}
+.songtian .st16{ top:250px; left:210px;}
+.songtian .st17{ top:330px; left:80px;}
+
+/* 太昊一重 */
+.taihao{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/taihao_one.jpg) no-repeat; position:relative;}
+.taihao .th{ position:absolute; width:52px; height:50px; text-align:center;}
+.taihao .th div{width:52px; height:45px; position:relative; padding-top:5px;}
+.taihao .th div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.taihao .th b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.taihao .th span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.taihao .th span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.taihao .th span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.taihao .th01{ top:20px; left:115px;}
+.taihao .th02{ top:80px; left:35px;}
+.taihao .th03{ top:80px; left:190px;}
+.taihao .th04{ top:100px; left:115px;}
+.taihao .th05{ top:160px; left:35px;}
+.taihao .th06{ top:160px; left:190px;}
+.taihao .th07{ top:190px; left:115px;}
+.taihao .th08{ top:235px; left:35px;}
+.taihao .th09{ top:235px; left:190px;}
+.taihao .th10{ top:270px; left:115px;}
+.taihao .th11{ top:315px; left:35px;}
+.taihao .th12{ top:315px; left:190px;}
+.taihao .th13{ top:345px; left:115px;}
+
+/* 太昊二重 */
+.taihao_two{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/taihao_two.jpg) no-repeat; position:relative;}
+.taihao_two .th{ position:absolute; width:52px; height:50px; text-align:center;}
+.taihao_two .th div{width:52px; height:45px; position:relative; padding-top:5px;}
+.taihao_two .th div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.taihao_two .th b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.taihao_two .th span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.taihao_two .th span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.taihao_two .th span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.taihao_two .th01{ top:20px; left:115px;}
+.taihao_two .th02{ top:80px; left:35px;}
+.taihao_two .th03{ top:80px; left:190px;}
+.taihao_two .th04{ top:100px; left:115px;}
+.taihao_two .th05{ top:160px; left:35px;}
+.taihao_two .th06{ top:160px; left:190px;}
+.taihao_two .th07{ top:190px; left:115px;}
+.taihao_two .th08{ top:235px; left:35px;}
+.taihao_two .th09{ top:235px; left:190px;}
+.taihao_two .th10{ top:270px; left:115px;}
+
+/* 太昊五重 */
+.taihao_five{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/taihao_five.jpg) no-repeat; position:relative;}
+.taihao_five .th{ position:absolute; width:52px; height:50px; text-align:center;}
+.taihao_five .th div{width:52px; height:45px; position:relative; padding-top:5px;}
+.taihao_five .th div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.taihao_five .th b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.taihao_five .th span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.taihao_five .th span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.taihao_five .th span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.taihao_five .th01{ top:20px; left:115px;}
+.taihao_five .th02{ top:80px; left:35px;}
+.taihao_five .th03{ top:80px; left:190px;}
+.taihao_five .th04{ top:140px; left:115px;}
+.taihao_five .th05{ top:270px; left:115px;}
+
+/* 狂灵定位 */
+.kuangling{padding:0; width:278px; height:434px; background:url(../image/taihao_kl.jpg) no-repeat;  position:relative;}
+.kuangling .kl{ position:absolute; width:52px; height:50px; text-align:center;}
+.kuangling .kl div{width:52px; height:45px; position:relative; padding-top:5px;}
+.kuangling .kl div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.kuangling .kl b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.kuangling .kl span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.kuangling .kl span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.kuangling .kl span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.kuangling .kl01{ top:15px; left:15px;}
+.kuangling .kl02{ top:15px; left:80px;}
+.kuangling .kl03{ top:15px; left:140px;}
+.kuangling .kl04{ top:15px; left:210px;}
+.kuangling .kl05{ top:95px; left:15px;}
+.kuangling .kl06{ top:95px; left:80px;}
+.kuangling .kl07{ top:95px; left:140px;}
+.kuangling .kl08{ top:95px; left:210px;}
+.kuangling .kl09{ top:170px; left:15px;}
+.kuangling .kl10{ top:170px; left:80px;}
+.kuangling .kl11{ top:170px; left:140px;}
+.kuangling .kl12{ top:170px; left:210px;}
+.kuangling .kl13{ top:250px; left:15px;}
+.kuangling .kl14{ top:250px; left:80px;}
+.kuangling .kl15{ top:250px; left:140px;}
+.kuangling .kl16{ top:250px; left:210px;}
+.kuangling .kl17{ top:330px; left:140px;}
+
+/* 青云一、二、三、四重 */
+.qingyun{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/qingyun_one.jpg) no-repeat; position:relative;}
+.qingyun .qy{ position:absolute; width:52px; height:50px; text-align:center;}
+.qingyun .qy div{width:52px; height:45px; position:relative; padding-top:5px;}
+.qingyun .qy div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.qingyun .qy b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.qingyun .qy span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.qingyun .qy span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.qingyun .qy span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.qingyun .qy01{ top:20px; left:115px;}
+.qingyun .qy02{ top:80px; left:35px;}
+.qingyun .qy03{ top:80px; left:190px;}
+.qingyun .qy04{ top:120px; left:115px;}
+.qingyun .qy05{ top:180px; left:35px;}
+.qingyun .qy06{ top:180px; left:190px;}
+.qingyun .qy07{ top:250px; left:115px;}
+.qingyun .qy08{ top:285px; left:35px;}
+.qingyun .qy09{ top:285px; left:190px;}
+/* 青云五重 */
+.qingyun-five{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/qingyun_five.jpg) no-repeat; position:relative;}
+.qingyun-five .qy{ position:absolute; width:52px; height:50px; text-align:center;}
+.qingyun-five .qy div{width:52px; height:45px; position:relative; padding-top:5px;}
+.qingyun-five .qy div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.qingyun-five .qy b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.qingyun-five .qy span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.qingyun-five .qy span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.qingyun-five .qy span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.qingyun-five .qy01{ top:20px; left:115px;}
+.qingyun-five .qy02{ top:90px; left:190px;}
+.qingyun-five .qy03{ top:180px; left:190px;}
+.qingyun-five .qy04{ top:290px; left:35px;}
+
+/* 御剑定位 */
+.yujian{padding:0; width:278px; height:434px; background:url(../image/qingyun_yj.jpg) no-repeat;  position:relative;}
+.yujian .yj{ position:absolute; width:52px; height:50px; text-align:center;}
+.yujian .yj div{width:52px; height:45px; position:relative; padding-top:5px;}
+.yujian .yj div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.yujian .yj b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.yujian .yj span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.yujian .yj span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.yujian .yj span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.yujian .yj01{ top:15px; left:15px;}
+.yujian .yj02{ top:15px; left:145px;}
+.yujian .yj03{ top:85px; left:15px;}
+.yujian .yj04{ top:85px; left:83px;}
+.yujian .yj05{ top:85px; left:210px;}
+.yujian .yj06{ top:155px; left:15px;}
+.yujian .yj07{ top:155px; left:83px;}
+.yujian .yj08{ top:155px; left:145px;}
+.yujian .yj09{ top:155px; left:210px;}
+.yujian .yj10{ top:220px; left:15px;}
+.yujian .yj11{ top:220px; left:83px;}
+.yujian .yj12{ top:220px; left:145px;}
+.yujian .yj13{ top:220px; left:210px;}
+.yujian .yj14{ top:290px; left:15px;}
+.yujian .yj15{ top:290px; left:83px;}
+.yujian .yj16{ top:290px; left:145px;}
+.yujian .yj17{ top:360px; left:145px;}
+
+/* 修元定位 */
+.xiuyuan{padding:0; width:278px; height:434px; background:url(../image/qingyun_xy.jpg) no-repeat;  position:relative;}
+.xiuyuan .xy{ position:absolute; width:52px; height:50px; text-align:center;}
+.xiuyuan .xy div{width:52px; height:45px; position:relative; padding-top:5px;}
+.xiuyuan .xy div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.xiuyuan .xy b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.xiuyuan .xy span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.xiuyuan .xy span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.xiuyuan .xy span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.xiuyuan .xy01{ top:15px; left:83px;}
+.xiuyuan .xy02{ top:15px; left:210px;}
+.xiuyuan .xy03{ top:85px; left:15px;}
+.xiuyuan .xy04{ top:85px; left:145px;}
+.xiuyuan .xy05{ top:85px; left:210px;}
+.xiuyuan .xy06{ top:155px; left:15px;}
+.xiuyuan .xy07{ top:155px; left:83px;}
+.xiuyuan .xy08{ top:155px; left:145px;}
+.xiuyuan .xy09{ top:155px; left:210px;}
+.xiuyuan .xy10{ top:220px; left:15px;}
+.xiuyuan .xy11{ top:220px; left:83px;}
+.xiuyuan .xy12{ top:220px; left:145px;}
+.xiuyuan .xy13{ top:220px; left:210px;}
+.xiuyuan .xy14{ top:290px; left:15px;}
+.xiuyuan .xy15{ top:290px; left:83px;}
+.xiuyuan .xy16{ top:290px; left:145px;}
+.xiuyuan .xy17{ top:360px; left:15px;}
+
+/* 合欢一重 */
+.hehuan{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/hehuan_one.jpg) no-repeat; position:relative;}
+.hehuan .hh{ position:absolute; width:52px; height:50px; text-align:center;}
+.hehuan .hh div{width:52px; height:45px; position:relative; padding-top:5px;}
+.hehuan .hh div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.hehuan .hh b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.hehuan .hh span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.hehuan .hh span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.hehuan .hh span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.hehuan .hh01{ top:20px; left:115px;}
+.hehuan .hh02{ top:90px; left:190px;}
+.hehuan .hh03{ top:140px; left:45px;}
+.hehuan .hh04{ top:180px; left:190px;}
+
+/* 鬼道一重 */
+.guidao{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/guidao_one.jpg) no-repeat; position:relative;}
+.guidao .gd{ position:absolute; width:52px; height:50px; text-align:center;}
+.guidao .gd div{width:52px; height:45px; position:relative; padding-top:5px;}
+.guidao .gd div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.guidao .gd b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.guidao .gd span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.guidao .gd span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.guidao .gd span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.guidao .gd01{ top:20px; left:35px;}
+.guidao .gd02{ top:20px; left:110px;}
+.guidao .gd03{ top:20px; left:190px;}
+.guidao .gd04{ top:87px; left:190px;}
+.guidao .gd05{ top:97px; left:110px;}
+.guidao .gd06{ top:145px; left:35px;}
+.guidao .gd07{ top:165px; left:190px;}
+.guidao .gd08{ top:205px; left:110px;}
+.guidao .gd09{ top:265px; left:190px;}
+.guidao .gd10{ top:310px; left:35px;}
+
+/* 鬼道二重 */
+.guidao02{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/guidao_two.jpg) no-repeat; position:relative;}
+.guidao02 .gd{ position:absolute; width:52px; height:50px; text-align:center;}
+.guidao02 .gd div{width:52px; height:45px; position:relative; padding-top:5px;}
+.guidao02 .gd div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.guidao02 .gd b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.guidao02 .gd span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.guidao02 .gd span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.guidao02 .gd span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.guidao02 .gd01{ top:20px; left:35px;}
+.guidao02 .gd02{ top:20px; left:110px;}
+.guidao02 .gd03{ top:20px; left:190px;}
+.guidao02 .gd04{ top:87px; left:35px;}
+.guidao02 .gd05{ top:107px; left:110px;}
+.guidao02 .gd06{ top:155px; left:190px;}
+.guidao02 .gd07{ top:175px; left:35px;}
+.guidao02 .gd08{ top:225px; left:110px;}
+.guidao02 .gd09{ top:275px; left:190px;}
+.guidao02 .gd10{ top:330px; left:35px;}
+/*
+ * 造化技能--选项卡
+ * style3
+ * */
+.mod-tabs-s3{zoom:1;position:relative;background:url(../image/zhaohua_c_bd.jpg) no-repeat; width:610px; height:537px;}
+.mod-tabs-s3 h3{font-size:14px;margin:0 10px; color:#fc3; text-align:center; line-height:27px;}
+.mod-tabs-s3 .act{ color:#9fc; margin:10px 15px;}
+.mod-tabs-s3 .mod-tabs-hd{position:relative;height:25px;line-height:25px; background:none; margin:10px 0 0 20px; overflow:hidden;}
+.mod-tabs-s3 .mod-tabs-trigger{display:inline;position:relative;left:155px;}
+.mod-tabs-s3 .mod-tabs-trigger li{position:relative;cursor:pointer;float:left;margin:0 10px 0 0;width:68px; height:25px; line-height:25px;font-size:14px;text-align:center;background:url(../image/sim_btn.png) -68px -103px;color:#75dbff;}
+.mod-tabs-s3 .mod-tabs-trigger li.hover{font-weight:bold;background:#fff;color:#ff0; background:url(../image/sim_btn.png) no-repeat 0 -103px;}
+.mod-tabs-s3 .mod-tabs-bd{ margin:0 auto;  position:relative; padding:0; width:590px; height:458px;}
+.mod-tabs-s3 .mod-tabs-bd .daoshu-bd{background:url(../image/zhaohua_ds_bd.jpg) no-repeat; height:458px;}
+.mod-tabs-s3 .mod-tabs-bd .mojie-bd{background:url(../image/zhaohua_mj_bd.jpg) no-repeat; height:458px;}
+.mod-tabs-s3 .mod-tabs-bd .fofa-bd{background:url(../image/zhaohua_ff_bd.jpg) no-repeat; height:458px;}
+
+
+/* 造化技能--道术定位 */
+.daoshu{ width:500px; border-right:1px dashed #90aab3;}
+.daoshu .ds{ position:absolute; width:52px; height:50px; text-align:center;}
+.daoshu .ds div{width:52px; height:45px; position:relative; padding-top:5px;}
+.daoshu .ds div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.daoshu .ds b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.daoshu .ds span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.daoshu .ds span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.daoshu .ds span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.daoshu .ds01{ top:20px; left:123px;}
+.daoshu .ds02{ top:42px; left:30px;}
+.daoshu .ds03{ top:42px; left:215px;}
+.daoshu .ds04{ top:115px; left:15px;}
+.daoshu .ds05{ top:117px; left:123px;}
+.daoshu .ds06{ top:115px; left:225px;}
+.daoshu .ds07{ top:190px; left:30px;}
+.daoshu .ds08{ top:190px; left:215px;}
+.daoshu .ds09{ top:207px; left:123px;}
+.daoshu .ds10{ top:288px; left:123px;}
+.daoshu .ds11{ top:370px; left:123px;}
+
+
+
+
+
+/* 造化技能--佛法定位 */
+.fofa{ width:500px; border-right:1px dashed #90aab3;}
+.fofa .ff{ position:absolute; width:52px; height:50px; text-align:center;}
+.fofa .ff div{width:52px; height:45px; position:relative; padding-top:5px;}
+.fofa .ff div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.fofa .ff b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.fofa .ff span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.fofa .ff span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.fofa .ff span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.fofa .ff01{ top:20px; left:123px;}
+.fofa .ff02{ top:70px; left:40px;}
+.fofa .ff03{ top:70px; left:215px;}
+.fofa .ff04{ top:140px; left:10px;}
+.fofa .ff05{ top:140px; left:235px;}
+.fofa .ff06{ top:225px; left:15px;}
+.fofa .ff07{ top:225px; left:225px;}
+.fofa .ff08{ top:245px; left:123px;}
+.fofa .ff09{ top:300px; left:53px;}
+.fofa .ff10{ top:300px; left:195px;}
+.fofa .ff11{ top:360px; left:123px;}
+
+/* 造化技能--魔劫定位 */
+.mojie{ width:500px; border-right:1px dashed #90aab3;}
+.mojie .mj{ position:absolute; width:52px; height:50px; text-align:center;}
+.mojie .mj div{width:52px; height:45px; position:relative; padding-top:5px;}
+.mojie .mj div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.mojie .mj b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.mojie .mj span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.mojie .mj span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.mojie .mj span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.mojie .mj01{ top:20px; left:15px;}
+.mojie .mj02{ top:20px; left:230px;}
+.mojie .mj03{ top:95px; left:40px;}
+.mojie .mj04{ top:95px; left:205px;}
+.mojie .mj05{ top:165px; left:15px;}
+.mojie .mj06{ top:165px; left:235px;}
+.mojie .mj07{ top:215px; left:75px;}
+.mojie .mj08{ top:215px; left:175px;}
+.mojie .mj09{ top:290px; left:123px;}
+.mojie .mj10{ top:370px; left:75px;}
+.mojie .mj11{ top:370px; left:175px;}
+
+.dasshu_r{ width:270px; margin-right:2px; height:436px; padding:20px 0 0 15px; border-left:1px dashed #90aab3;}
+.dasshu_r span{ color:#ff0; font-size:14px; }
+.dasshu_r  h4{ margin-top:20px; color:#cf3; font-size:14px; background:url(../image/zhaohua_ds_tit.jpg) no-repeat 0 0; height:36px; line-height:36px;}
+.tongyong{ width:270px; height:130px; position:relative;}
+.tongyong .ty{ position:absolute; width:52px; height:50px; text-align:center;}
+.tongyong .ty div{width:52px; height:45px; position:relative; padding-top:5px;}
+.tongyong .ty div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.tongyong .ty b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.tongyong .ty span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.tongyong .ty span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.tongyong .ty span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.tongyong .ty01{ top:15px; left:10px;}
+.tongyong .ty02{ top:15px; left:70px;}
+.tongyong .ty03{ top:15px; left:135px;}
+.tongyong .ty04{ top:15px; left:200px;}
+.tongyong .ty05{ top:80px; left:10px;}
+.tongyong .ty06{ top:80px; left:70px;}
+.tongyong .ty07{ top:80px; left:135px;}
+.tongyong .ty08{ top:80px; left:200px;}
+
+.menpai{ width:270px; height:130px; position:relative;}
+.menpai .mp{ position:absolute; width:52px; height:50px; text-align:center;}
+.menpai .mp div{width:52px; height:45px; position:relative; padding-top:5px;}
+.menpai .mp div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.menpai .mp b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.menpai .mp span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.menpai .mp span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.menpai .mp span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.menpai .mp01{ top:15px; left:10px;}
+.menpai .mp02{ top:15px; left:70px;}
+.menpai .mp03{ top:80px; left:70px;}
+.menpai .mp04{ top:80px; left:135px;}
+.menpai .mp05{ top:80px; left:200px;}
+
+
+/*
+ * 封神技能
+ * */
+.taihao_fs_xian{ background:url(../image/fengshen_taoism.jpg) no-repeat center; width:590px; height:428px;}
+.taihao_fs_xian .fs{ position:absolute; width:52px; height:50px; text-align:center;}
+.taihao_fs_xian .fs div{width:52px; height:45px; position:relative; padding-top:5px;}
+.taihao_fs_xian .fs div img{ border:0px solid #726a72; padding:1px; background:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.taihao_fs_xian .fs b{position:absolute; right:33px; top:22px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.taihao_fs_xian .fs span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.taihao_fs_xian .fs span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.taihao_fs_xian .fs span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.taihao_fs_xian .fs01{ top:35px; left:218px;}
+.taihao_fs_xian .fs02{ top:35px; left:323px;}
+.taihao_fs_xian .fs03{ top:110px; left:148px;}
+.taihao_fs_xian .fs04{ top:110px; left:235px;}
+.taihao_fs_xian .fs05{ top:110px; left:307px;}
+.taihao_fs_xian .fs06{ top:110px; left:391px;}
+.taihao_fs_xian .fs07{ top:185px; left:95px;}
+.taihao_fs_xian .fs08{ top:185px; left:189px;}
+.taihao_fs_xian .fs09{ top:185px; left:270px;}
+.taihao_fs_xian .fs10{ top:185px; left:350px;}
+.taihao_fs_xian .fs11{ top:185px; left:445px;}
+.taihao_fs_xian .fs12{ top:260px; left:148px;}
+.taihao_fs_xian .fs13{ top:260px; left:235px;}
+.taihao_fs_xian .fs14{ top:260px; left:307px;}
+.taihao_fs_xian .fs15{ top:260px; left:391px;}
+.taihao_fs_xian .fs16{ top:335px; left:218px;}
+.taihao_fs_xian .fs17{ top:335px; left:323px;}
+
+.taihao_fs_mo{ background:url(../image/fengshen_evil.jpg) no-repeat center; width:590px; height:428px;}
+.taihao_fs_mo .fs{ position:absolute; width:52px; height:50px; text-align:center;}
+.taihao_fs_mo .fs div{width:52px; height:45px; position:relative; padding-top:5px;}
+.taihao_fs_mo .fs div img{ border:0px solid #726a72; padding:1px; background:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.taihao_fs_mo .fs b{position:absolute; right:33px; top:22px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.taihao_fs_mo .fs span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.taihao_fs_mo .fs span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.taihao_fs_mo .fs span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.taihao_fs_mo .fs01{ top:35px; left:218px;}
+.taihao_fs_mo .fs02{ top:35px; left:323px;}
+.taihao_fs_mo .fs03{ top:110px; left:148px;}
+.taihao_fs_mo .fs04{ top:110px; left:235px;}
+.taihao_fs_mo .fs05{ top:110px; left:307px;}
+.taihao_fs_mo .fs06{ top:110px; left:391px;}
+.taihao_fs_mo .fs07{ top:185px; left:95px;}
+.taihao_fs_mo .fs08{ top:185px; left:189px;}
+.taihao_fs_mo .fs09{ top:185px; left:270px;}
+.taihao_fs_mo .fs10{ top:185px; left:350px;}
+.taihao_fs_mo .fs11{ top:185px; left:445px;}
+.taihao_fs_mo .fs12{ top:260px; left:148px;}
+.taihao_fs_mo .fs13{ top:260px; left:235px;}
+.taihao_fs_mo .fs14{ top:260px; left:307px;}
+.taihao_fs_mo .fs15{ top:260px; left:391px;}
+.taihao_fs_mo .fs16{ top:335px; left:218px;}
+.taihao_fs_mo .fs17{ top:335px; left:323px;}
+
+.taihao_fs_fo{ background:url(../image/fengshen_buddhism.jpg) no-repeat center; width:590px; height:428px;}
+.taihao_fs_fo .fs{ position:absolute; width:52px; height:50px; text-align:center;}
+.taihao_fs_fo .fs div{width:52px; height:45px; position:relative; padding-top:5px;}
+.taihao_fs_fo .fs div img{ border:0px solid #726a72; padding:1px; background:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.taihao_fs_fo .fs b{position:absolute; right:33px; top:22px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.taihao_fs_fo .fs span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.taihao_fs_fo .fs span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.taihao_fs_fo .fs span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.taihao_fs_fo .fs01{ top:35px; left:218px;}
+.taihao_fs_fo .fs02{ top:35px; left:323px;}
+.taihao_fs_fo .fs03{ top:110px; left:148px;}
+.taihao_fs_fo .fs04{ top:110px; left:235px;}
+.taihao_fs_fo .fs05{ top:110px; left:307px;}
+.taihao_fs_fo .fs06{ top:110px; left:391px;}
+.taihao_fs_fo .fs07{ top:185px; left:95px;}
+.taihao_fs_fo .fs08{ top:185px; left:189px;}
+.taihao_fs_fo .fs09{ top:185px; left:270px;}
+.taihao_fs_fo .fs10{ top:185px; left:350px;}
+.taihao_fs_fo .fs11{ top:185px; left:445px;}
+.taihao_fs_fo .fs12{ top:260px; left:148px;}
+.taihao_fs_fo .fs13{ top:260px; left:235px;}
+.taihao_fs_fo .fs14{ top:260px; left:307px;}
+.taihao_fs_fo .fs15{ top:260px; left:391px;}
+.taihao_fs_fo .fs16{ top:335px; left:218px;}
+.taihao_fs_fo .fs17{ top:335px; left:323px;}
+
+.fengshen_xian{ background:url(../image/fengshen_taoism.jpg) no-repeat center; width:590px; height:428px;}
+.fengshen_xian .fs{ position:absolute; width:52px; height:50px; text-align:center;}
+.fengshen_xian .fs div{width:52px; height:45px; position:relative; padding-top:5px;}
+.fengshen_xian .fs div img{ border:0px solid #726a72; padding:1px; background:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.fengshen_xian .fs b{position:absolute; right:33px; top:22px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.fengshen_xian .fs span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.fengshen_xian .fs span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.fengshen_xian .fs span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.fengshen_xian .fs01{ top:35px; left:218px;}
+.fengshen_xian .fs02{ top:35px; left:323px;}
+.fengshen_xian .fs03{ top:110px; left:148px;}
+.fengshen_xian .fs04{ top:110px; left:235px;}
+.fengshen_xian .fs05{ top:110px; left:307px;}
+.fengshen_xian .fs06{ top:110px; left:391px;}
+.fengshen_xian .fs07{ top:185px; left:95px;}
+.fengshen_xian .fs08{ top:185px; left:189px;}
+.fengshen_xian .fs09{ top:185px; left:350px;}
+.fengshen_xian .fs10{ top:185px; left:445px;}
+.fengshen_xian .fs11{ top:260px; left:148px;}
+.fengshen_xian .fs12{ top:260px; left:235px;}
+.fengshen_xian .fs13{ top:260px; left:307px;}
+.fengshen_xian .fs14{ top:260px; left:391px;}
+.fengshen_xian .fs15{ top:335px; left:218px;}
+.fengshen_xian .fs16{ top:335px; left:323px;}
+
+.fengshen_mo{ background:url(../image/fengshen_evil.jpg) no-repeat center; width:590px; height:428px;}
+.fengshen_mo .fs{ position:absolute; width:52px; height:50px; text-align:center;}
+.fengshen_mo .fs div{width:52px; height:45px; position:relative; padding-top:5px;}
+.fengshen_mo .fs div img{ border:0px solid #726a72; padding:1px; background:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.fengshen_mo .fs b{position:absolute; right:33px; top:22px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.fengshen_mo .fs span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.fengshen_mo .fs span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.fengshen_mo .fs span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.fengshen_mo .fs01{ top:35px; left:218px;}
+.fengshen_mo .fs02{ top:35px; left:323px;}
+.fengshen_mo .fs03{ top:110px; left:148px;}
+.fengshen_mo .fs04{ top:110px; left:235px;}
+.fengshen_mo .fs05{ top:110px; left:307px;}
+.fengshen_mo .fs06{ top:110px; left:391px;}
+.fengshen_mo .fs07{ top:185px; left:95px;}
+.fengshen_mo .fs08{ top:185px; left:189px;}
+.fengshen_mo .fs09{ top:185px; left:350px;}
+.fengshen_mo .fs10{ top:185px; left:445px;}
+.fengshen_mo .fs11{ top:260px; left:148px;}
+.fengshen_mo .fs12{ top:260px; left:235px;}
+.fengshen_mo .fs13{ top:260px; left:307px;}
+.fengshen_mo .fs14{ top:260px; left:391px;}
+.fengshen_mo .fs15{ top:335px; left:218px;}
+.fengshen_mo .fs16{ top:335px; left:323px;}
+
+.fengshen_fo{ background:url(../image/fengshen_buddhism.jpg) no-repeat center; width:590px; height:428px;}
+.fengshen_fo .fs{ position:absolute; width:52px; height:50px; text-align:center;}
+.fengshen_fo .fs div{width:52px; height:45px; position:relative; padding-top:5px;}
+.fengshen_fo .fs div img{ border:0px solid #726a72; padding:1px; background:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.fengshen_fo .fs b{position:absolute; right:33px; top:22px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.fengshen_fo .fs span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.fengshen_fo .fs span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.fengshen_fo .fs span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.fengshen_fo .fs01{ top:35px; left:218px;}
+.fengshen_fo .fs02{ top:35px; left:323px;}
+.fengshen_fo .fs03{ top:110px; left:148px;}
+.fengshen_fo .fs04{ top:110px; left:235px;}
+.fengshen_fo .fs05{ top:110px; left:307px;}
+.fengshen_fo .fs06{ top:110px; left:391px;}
+.fengshen_fo .fs07{ top:185px; left:95px;}
+.fengshen_fo .fs08{ top:185px; left:189px;}
+.fengshen_fo .fs09{ top:185px; left:350px;}
+.fengshen_fo .fs10{ top:185px; left:445px;}
+.fengshen_fo .fs11{ top:260px; left:148px;}
+.fengshen_fo .fs12{ top:260px; left:235px;}
+.fengshen_fo .fs13{ top:260px; left:307px;}
+.fengshen_fo .fs14{ top:260px; left:391px;}
+.fengshen_fo .fs15{ top:335px; left:218px;}
+.fengshen_fo .fs16{ top:335px; left:323px;}
+
+
+/* 分享 */
+.share{ background:#2c5a6f url(../image/sim_bd.png) repeat-y; padding:0 20px 790px 20px; text-align:center;}
+.share .line{ border-top:1px solid #567b8c; margin:0 5px; padding-top:40px;}
+.share .line2{ border-top:1px solid #294350; margin:0 5px; }
+.share .btn-submit{ background:url(share_btn.jpg) no-repeat; width:195px; height:45px; display:inline-block;font:18px/32px \5fae\8f6f\96c5\9ed1; color:#630; line-height:45px; text-align:center;}
+.share a{cursor:pointer;}
+.share a:hover{ color:#000; text-decoration:none;}
+
+/* 2012-10-22 辰皇 */
+/* 幽影定位 */
+.youying{padding:0; width:278px; height:434px; background:url(../image/chenhuang_youying.jpg) no-repeat;  position:relative;}
+.youying .yy{ position:absolute; width:52px; height:50px; text-align:center;}
+.youying .yy div{width:52px; height:45px; position:relative; padding-top:5px;}
+.youying .yy div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.youying .yy b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.youying .yy span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.youying .yy span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.youying .yy span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.youying .yy01{ top:20px; left:55px;}
+.youying .yy02{ top:20px; left:106px;}
+.youying .yy03{ top:20px; left:163px;}
+.youying .yy04{ top:90px; left:5px;}
+.youying .yy05{ top:90px; left:106px;}
+.youying .yy06{ top:90px; left:163px;}
+.youying .yy07{ top:170px; left:55px;}
+.youying .yy08{ top:170px; left:106px;}
+.youying .yy09{ top:170px; left:163px;}
+.youying .yy10{ top:252px; left:5px;}
+.youying .yy11{ top:252px; left:55px;}
+.youying .yy12{ top:252px; left:106px;}
+.youying .yy13{ top:252px; left:163px;}
+.youying .yy14{ top:252px; left:218px;}
+.youying .yy15{ top:340px; left:5px;}
+.youying .yy16{ top:340px; left:112px;}
+.youying .yy17{ top:340px; left:218px;}
+
+/* 帝胄定位 */
+.dizhou{padding:0; width:278px; height:434px; background:url(../image/chenhuang_dizhou.jpg) no-repeat;  position:relative;}
+.dizhou .dz{ position:absolute; width:52px; height:50px; text-align:center;}
+.dizhou .dz div{width:52px; height:45px; position:relative; padding-top:5px;}
+.dizhou .dz div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.dizhou .dz b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.dizhou .dz span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.dizhou .dz span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.dizhou .dz span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.dizhou .dz01{ top:20px; left:55px;}
+.dizhou .dz02{ top:20px; left:110px;}
+.dizhou .dz03{ top:20px; left:163px;}
+.dizhou .dz04{ top:90px; left:5px;}
+.dizhou .dz05{ top:90px; left:55px;}
+.dizhou .dz06{ top:90px; left:110px;}
+.dizhou .dz07{ top:90px; left:163px;}
+.dizhou .dz08{ top:90px; left:218px;}
+.dizhou .dz09{ top:170px; left:55px;}
+.dizhou .dz10{ top:170px; left:110px;}
+.dizhou .dz11{ top:170px; left:163px;}
+.dizhou .dz12{ top:252px; left:55px;}
+.dizhou .dz13{ top:252px; left:110px;}
+.dizhou .dz14{ top:252px; left:163px;}
+.dizhou .dz15{ top:340px; left:5px;}
+.dizhou .dz16{ top:340px; left:112px;}
+.dizhou .dz17{ top:340px; left:218px;}
+
+/* 明光定位 */
+.mingguang{padding:0; width:278px; height:434px; background:url(../image/chenhuang_mingguang.jpg) no-repeat;  position:relative;}
+.mingguang .mg{ position:absolute; width:52px; height:50px; text-align:center;}
+.mingguang .mg div{width:52px; height:45px; position:relative; padding-top:5px;}
+.mingguang .mg div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.mingguang .mg b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.mingguang .mg span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.mingguang .mg span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.mingguang .mg span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.mingguang .mg01{ top:20px; left:55px;}
+.mingguang .mg02{ top:20px; left:110px;}
+.mingguang .mg03{ top:20px; left:163px;}
+.mingguang .mg04{ top:90px; left:55px;}
+.mingguang .mg05{ top:90px; left:110px;}
+.mingguang .mg06{ top:90px; left:218px;}
+.mingguang .mg07{ top:170px; left:55px;}
+.mingguang .mg08{ top:170px; left:110px;}
+.mingguang .mg09{ top:170px; left:163px;}
+.mingguang .mg10{ top:252px; left:2px;}
+.mingguang .mg11{ top:252px; left:55px;}
+.mingguang .mg12{ top:252px; left:110px;}
+.mingguang .mg13{ top:252px; left:163px;}
+.mingguang .mg14{ top:252px; left:218px;}
+.mingguang .mg15{ top:340px; left:5px;}
+.mingguang .mg16{ top:340px; left:112px;}
+.mingguang .mg17{ top:340px; left:218px;}
+
+/* 画影格物定位 */
+.gewu{padding:0; width:278px; height:434px; background:url(../image/huaying_gewu.jpg) no-repeat;  position:relative;}
+.gewu .gw{ position:absolute; width:52px; height:50px; text-align:center;}
+.gewu .gw div{width:52px; height:45px; position:relative; padding-top:5px;}
+.gewu .gw div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.gewu .gw b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.gewu .gw span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.gewu .gw span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.gewu .gw span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.gewu .gw01{ top:20px; left:55px;}
+.gewu .gw02{ top:20px; left:112px;}
+.gewu .gw03{ top:20px; left:168px;}
+.gewu .gw04{ top:90px; left:5px;}
+.gewu .gw05{ top:90px; left:112px;}
+.gewu .gw06{ top:90px; left:221px;}
+.gewu .gw07{ top:170px; left:55px;}
+.gewu .gw08{ top:170px; left:112px;}
+.gewu .gw09{ top:170px; left:168px;}
+.gewu .gw10{ top:252px; left:5px;}
+.gewu .gw11{ top:252px; left:55px;}
+.gewu .gw12{ top:252px; left:112px;}
+.gewu .gw13{ top:252px; left:168px;}
+.gewu .gw14{ top:252px; left:221px;}
+.gewu .gw15{ top:340px; left:5px;}
+.gewu .gw16{ top:340px; left:112px;}
+.gewu .gw17{ top:340px; left:221px;}
+
+/* 画影齐物定位 */
+.qiwu{padding:0; width:278px; height:434px; background:url(../image/huaying_qiwu.jpg) no-repeat;  position:relative;}
+.qiwu .qw{ position:absolute; width:52px; height:50px; text-align:center;}
+.qiwu .qw div{width:52px; height:45px; position:relative; padding-top:5px;}
+.qiwu .qw div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.qiwu .qw b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.qiwu .qw span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.qiwu .qw span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.qiwu .qw span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.qiwu .qw01{ top:20px; left:2px;}
+.qiwu .qw02{ top:20px; left:56px;}
+.qiwu .qw03{ top:20px; left:112px;}
+.qiwu .qw04{ top:20px; left:167px;}
+.qiwu .qw05{ top:90px; left:2px;}
+.qiwu .qw06{ top:90px; left:112px;}
+.qiwu .qw07{ top:90px; left:167px;}
+.qiwu .qw08{ top:170px; left:2px;}
+.qiwu .qw09{ top:170px; left:56px;}
+.qiwu .qw10{ top:170px; left:112px;}
+.qiwu .qw11{ top:252px; left:56px;}
+.qiwu .qw12{ top:252px; left:112px;}
+.qiwu .qw13{ top:252px; left:167px;}
+.qiwu .qw14{ top:252px; left:223px;}
+.qiwu .qw15{ top:340px; left:112px;}
+.qiwu .qw16{ top:340px; left:167px;}
+.qiwu .qw17{ top:340px; left:223px;}
+
+/* 画影化物定位 */
+.huawu{padding:0; width:278px; height:434px; background:url(../image/huaying_huawu.jpg) no-repeat;  position:relative;}
+.huawu .hw{ position:absolute; width:52px; height:50px; text-align:center;}
+.huawu .hw div{width:52px; height:45px; position:relative; padding-top:5px;}
+.huawu .hw div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.huawu .hw b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.huawu .hw span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.huawu .hw span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.huawu .hw span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.huawu .hw01{ top:20px; left:56px;}
+.huawu .hw02{ top:20px; left:112px;}
+.huawu .hw03{ top:20px; left:167px;}
+.huawu .hw04{ top:90px; left:2px;}
+.huawu .hw05{ top:90px; left:112px;}
+.huawu .hw06{ top:90px; left:223px;}
+.huawu .hw07{ top:170px; left:56px;}
+.huawu .hw08{ top:170px; left:112px;}
+.huawu .hw09{ top:170px; left:167px;}
+.huawu .hw10{ top:252px; left:2px;}
+.huawu .hw11{ top:252px; left:56px;}
+.huawu .hw12{ top:252px; left:112px;}
+.huawu .hw13{ top:252px; left:167px;}
+.huawu .hw14{ top:252px; left:223px;}
+.huawu .hw15{ top:340px; left:2px;}
+.huawu .hw16{ top:340px; left:112px;}
+.huawu .hw17{ top:340px; left:223px;}
+
+/* 归云天书定位 */
+.xianyin{padding:0; width:278px; height:434px; background:url(../image/guiyun_xianyin.jpg) no-repeat;  position:relative;}
+.xianyin .xy{ position:absolute; width:52px; height:50px; text-align:center;}
+.xianyin .xy div{width:52px; height:45px; position:relative; padding-top:5px;}
+.xianyin .xy div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.xianyin .xy b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.xianyin .xy span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.xianyin .xy span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.xianyin .xy span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.xianyin .xy01{ top:20px; left:56px;}
+.xianyin .xy02{ top:20px; left:112px;}
+.xianyin .xy03{ top:20px; left:167px;}
+.xianyin .xy04{ top:90px; left:56px;}
+.xianyin .xy05{ top:90px; left:112px;}
+.xianyin .xy06{ top:90px; left:167px;}
+.xianyin .xy07{ top:90px; left:223px;}
+.xianyin .xy08{ top:170px; left:2px;}
+.xianyin .xy09{ top:170px; left:56px;}
+.xianyin .xy10{ top:170px; left:112px;}
+.xianyin .xy11{ top:170px; left:167px;}
+.xianyin .xy12{ top:252px; left:56px;}
+.xianyin .xy13{ top:252px; left:112px;}
+.xianyin .xy14{ top:252px; left:167px;}
+.xianyin .xy15{ top:252px; left:223px;}
+.xianyin .xy16{ top:340px; left:2px;}
+.xianyin .xy17{ top:340px; left:112px;}
+
+/* 青罗天书定位 */
+.luhua{padding:0; width:278px; height:434px; background:url(../image/qingluo_luhua.jpg) no-repeat;  position:relative;}
+.luhua .lh{ position:absolute; width:52px; height:50px; text-align:center;}
+.luhua .lh div{width:52px; height:45px; position:relative; padding-top:5px;}
+.luhua .lh div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.luhua .lh b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.luhua .lh span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.luhua .lh span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.luhua .lh span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.luhua .lh01{ top:20px; left:56px;}
+.luhua .lh02{ top:20px; left:112px;}
+.luhua .lh03{ top:20px; left:167px;}
+.luhua .lh04{ top:90px; left:2px;}
+.luhua .lh05{ top:90px; left:112px;}
+.luhua .lh06{ top:90px; left:167px;}
+.luhua .lh07{ top:170px; left:56px;}
+.luhua .lh08{ top:170px; left:112px;}
+.luhua .lh09{ top:170px; left:167px;}
+.luhua .lh10{ top:252px; left:2px;}
+.luhua .lh11{ top:252px; left:112px;}
+.luhua .lh12{ top:252px; left:167px;}
+.luhua .lh13{ top:252px; left:223px;}
+.luhua .lh14{ top:340px; left:2px;}
+.luhua .lh15{ top:340px; left:56px;}
+.luhua .lh16{ top:340px; left:112px;}
+.luhua .lh17{ top:340px; left:223px;}
+
+/* 青罗二四重定位（用于显示激活技能） */
+.qingluo2{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/jiuli_two.jpg) no-repeat; position:relative;}
+.qingluo2 .ql{ position:absolute; width:52px; height:50px; text-align:center;}
+.qingluo2 .ql div{width:52px; height:45px; position:relative; padding-top:5px;}
+.qingluo2 .ql div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.qingluo2 .ql b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.qingluo2 .ql span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.qingluo2 .ql span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.qingluo2 .ql span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.qingluo2 .ql01{ top:20px; left:115px;}
+.qingluo2 .ql02{ top:90px; left:35px;}
+.qingluo2 .ql03{ top:90px; left:185px;}
+.qingluo2 .ql04{ top:155px; left:115px;}
+.qingluo2 .ql05{ top:205px; left:35px;}
+.qingluo2 .ql06{ top:205px; left:185px;}
+.qingluo2 .ql07{ top:270px; left:115px;}
+.qingluo2 .ql08{ top:340px; left:35px;}
+.qingluo2 .ql09{ top:340px; left:185px;}
+.qingluo2 .ql10{ top:90px; left:80px;}
+
+/* 青罗五重定位（用于显示激活技能） */
+.qingluo5{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/jiuli_five.jpg) no-repeat; position:relative;}
+.qingluo5 .ql{ position:absolute; width:52px; height:50px; text-align:center;}
+.qingluo5 .ql div{width:52px; height:45px; position:relative; padding-top:5px;}
+.qingluo5 .ql div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.qingluo5 .ql b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.qingluo5 .ql span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.qingluo5 .ql span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.qingluo5 .ql span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.qingluo5 .ql01{ top:20px; left:115px;}
+.qingluo5 .ql02{ top:200px; left:45px;}
+.qingluo5 .ql03{ top:200px; left:185px;}
+.qingluo5 .ql04{ top:270px; left:115px;}
+.qingluo5 .ql05{ top:320px; left:115px;}
+
+/* 破军天恒定位 */
+.tianheng{padding:0; width:278px; height:434px; background:url(../image/pojun_tianheng.jpg) no-repeat;  position:relative;}
+.tianheng .th{ position:absolute; width:52px; height:50px; text-align:center;}
+.tianheng .th div{width:52px; height:45px; position:relative; padding-top:5px;}
+.tianheng .th div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.tianheng .th b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.tianheng .th span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.tianheng .th span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.tianheng .th span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.tianheng .th01{ top:20px; left:2px;}
+.tianheng .th02{ top:20px; left:112px;}
+.tianheng .th03{ top:20px; left:223px;}
+.tianheng .th04{ top:90px; left:56px;}
+.tianheng .th05{ top:90px; left:112px;}
+.tianheng .th06{ top:90px; left:167px;}
+.tianheng .th07{ top:170px; left:2px;}
+.tianheng .th08{ top:170px; left:56px;}
+.tianheng .th09{ top:170px; left:112px;}
+.tianheng .th10{ top:170px; left:167px;}
+.tianheng .th11{ top:170px; left:223px;}
+.tianheng .th12{ top:252px; left:56px;}
+.tianheng .th13{ top:252px; left:112px;}
+.tianheng .th14{ top:252px; left:167px;}
+.tianheng .th15{ top:340px; left:2px;}
+.tianheng .th16{ top:340px; left:112px;}
+.tianheng .th17{ top:340px; left:223px;}
+
+/* 破军冲脉定位 */
+.chongmai{padding:0; width:278px; height:434px; background:url(../image/pojun_chongmai.jpg) no-repeat;  position:relative;}
+.chongmai .cm{ position:absolute; width:52px; height:50px; text-align:center;}
+.chongmai .cm div{width:52px; height:45px; position:relative; padding-top:5px;}
+.chongmai .cm div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.chongmai .cm b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.chongmai .cm span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.chongmai .cm span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.chongmai .cm span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.chongmai .cm01{ top:20px; left:2px;}
+.chongmai .cm02{ top:20px; left:56px;}
+.chongmai .cm03{ top:20px; left:112px;}
+.chongmai .cm04{ top:20px; left:167px;}
+.chongmai .cm05{ top:20px; left:223px;}
+.chongmai .cm06{ top:90px; left:112px;}
+.chongmai .cm07{ top:170px; left:2px;}
+.chongmai .cm08{ top:170px; left:56px;}
+.chongmai .cm09{ top:170px; left:112px;}
+.chongmai .cm10{ top:170px; left:167px;}
+.chongmai .cm11{ top:170px; left:223px;}
+.chongmai .cm12{ top:252px; left:56px;}
+.chongmai .cm13{ top:252px; left:167px;}
+.chongmai .cm14{ top:340px; left:2px;}
+.chongmai .cm15{ top:340px; left:56px;}
+.chongmai .cm16{ top:340px; left:167px;}
+.chongmai .cm17{ top:340px; left:223px;}
+
+/* 逐霜技能定位 */
+.zhushuang{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/zhushuang_skill_bg.jpg) no-repeat; position:relative;}
+.zhushuang .zs{ position:absolute; width:52px; height:50px; text-align:center;}
+.zhushuang .zs div{width:52px; height:45px; position:relative; padding-top:5px;}
+.zhushuang .zs div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.zhushuang .zs b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.zhushuang .zs span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.zhushuang .zs span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.zhushuang .zs span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.zhushuang .zs01{ top:20px; left:115px;}
+.zhushuang .zs02{ top:75px; left:140px;}
+.zhushuang .zs03{ top:110px; left:35px;}
+.zhushuang .zs04{ top:220px; left:205px;}
+.zhushuang .zs05{ top:245px; left:55px;}
+.zhushuang .zs06{ top:325px; left:115px;}
+
+/* 逐霜留霜定位 */
+.liushuang{padding:0; width:278px; height:434px; background:url(../image/zhushuang_liushuang.jpg) no-repeat;  position:relative;}
+.liushuang .ls{ position:absolute; width:52px; height:50px; text-align:center;}
+.liushuang .ls div{width:52px; height:45px; position:relative; padding-top:5px;}
+.liushuang .ls div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.liushuang .ls b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.liushuang .ls span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.liushuang .ls span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.liushuang .ls span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.liushuang .ls01{ top:26px; left:42px;}
+.liushuang .ls02{ top:26px; left:112px;}
+.liushuang .ls03{ top:26px; left:182px;}
+.liushuang .ls04{ top:96px; left:42px;}
+.liushuang .ls05{ top:96px; left:112px;}
+.liushuang .ls06{ top:96px; left:182px;}
+.liushuang .ls07{ top:166px; left:42px;}
+.liushuang .ls08{ top:166px; left:112px;}
+.liushuang .ls09{ top:166px; left:182px;}
+.liushuang .ls10{ top:236px; left:42px;}
+.liushuang .ls11{ top:236px; left:112px;}
+.liushuang .ls12{ top:236px; left:182px;}
+.liushuang .ls13{ top:306px; left:42px;}
+.liushuang .ls14{ top:306px; left:112px;}
+.liushuang .ls15{ top:306px; left:182px;}
+
+/* 逐霜奋铤定位 */
+.fenting{padding:0; width:278px; height:434px; background:url(../image/zhushuang_fenting.jpg) no-repeat;  position:relative;}
+.fenting .ft{ position:absolute; width:52px; height:50px; text-align:center;}
+.fenting .ft div{width:52px; height:45px; position:relative; padding-top:5px;}
+.fenting .ft div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.fenting .ft b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.fenting .ft span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.fenting .ft span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.fenting .ft span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.fenting .ft01{ top:20px; left:42px;}
+.fenting .ft02{ top:26px; left:112px;}
+.fenting .ft03{ top:20px; left:182px;}
+.fenting .ft04{ top:82px; left:42px;}
+.fenting .ft05{ top:96px; left:112px;}
+.fenting .ft06{ top:82px; left:182px;}
+.fenting .ft07{ top:144px; left:42px;}
+.fenting .ft08{ top:166px; left:112px;}
+.fenting .ft09{ top:144px; left:182px;}
+.fenting .ft10{ top:206px; left:42px;}
+.fenting .ft11{ top:236px; left:112px;}
+.fenting .ft12{ top:206px; left:182px;}
+.fenting .ft13{ top:268px; left:42px;}
+.fenting .ft14{ top:306px; left:112px;}
+.fenting .ft15{ top:268px; left:182px;}
+.fenting .ft16{ top:330px; left:42px;}
+.fenting .ft17{ top:330px; left:182px;}
+
+/* 逐霜驭龙定位 */
+.yulong{padding:0; width:278px; height:434px; background:url(../image/zhushuang_yulong.jpg) no-repeat;  position:relative;}
+.yulong .yl{ position:absolute; width:52px; height:50px; text-align:center;}
+.yulong .yl div{width:52px; height:45px; position:relative; padding-top:5px;}
+.yulong .yl div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.yulong .yl b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.yulong .yl span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.yulong .yl span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.yulong .yl span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.yulong .yl01{ top:26px; left:112px;}
+.yulong .yl02{ top:65px; left:42px;}
+.yulong .yl03{ top:96px; left:112px;}
+.yulong .yl04{ top:65px; left:182px;}
+.yulong .yl05{ top:135px; left:42px;}
+.yulong .yl06{ top:166px; left:112px;}
+.yulong .yl07{ top:135px; left:182px;}
+.yulong .yl08{ top:205px; left:42px;}
+.yulong .yl09{ top:236px; left:112px;}
+.yulong .yl10{ top:205px; left:182px;}
+.yulong .yl11{ top:275px; left:42px;}
+.yulong .yl12{ top:306px; left:112px;}
+.yulong .yl13{ top:275px; left:182px;}
+
+/* 英招王道定位 */
+.wangdao{padding:0; width:278px; height:434px; background:url(../image/yingzhao_wangdao.jpg) no-repeat;  position:relative;}
+.wangdao .wd{ position:absolute; width:52px; height:50px; text-align:center;}
+.wangdao .wd div{width:52px; height:45px; position:relative; padding-top:5px;}
+.wangdao .wd div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.wangdao .wd b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.wangdao .wd span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.wangdao .wd span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.wangdao .wd span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.wangdao .wd01{ top:20px; left:2px;}
+.wangdao .wd02{ top:20px; left:56px;}
+.wangdao .wd03{ top:20px; left:112px;}
+.wangdao .wd04{ top:20px; left:167px;}
+.wangdao .wd05{ top:90px; left:2px;}
+.wangdao .wd06{ top:90px; left:112px;}
+.wangdao .wd07{ top:90px; left:167px;}
+.wangdao .wd08{ top:170px; left:2px;}
+.wangdao .wd09{ top:170px; left:56px;}
+.wangdao .wd10{ top:170px; left:112px;}
+.wangdao .wd11{ top:252px; left:56px;}
+.wangdao .wd12{ top:252px; left:112px;}
+.wangdao .wd13{ top:252px; left:167px;}
+.wangdao .wd14{ top:252px; left:223px;}
+.wangdao .wd15{ top:340px; left:112px;}
+.wangdao .wd16{ top:340px; left:167px;}
+.wangdao .wd17{ top:340px; left:223px;}
+
+/* 牵机一重 */
+.qianji{ margin:0 auto; padding:0; width:278px; height:426px; background:url(../image/qianji_one.jpg) no-repeat; position:relative;}
+.qianji .qj{ position:absolute; width:52px; height:50px; text-align:center;}
+.qianji .qj div{width:52px; height:45px; position:relative; padding-top:5px;}
+.qianji .qj div img{ border:1px solid #726a72; padding:1px; background:#000; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.qianji .qj b{position:absolute; right:31px; top:27px; color:#fff; font-size:13px; text-shadow: 0 1px black, 1px 0 black, -1px 0 black, 0 -1px black;}
+.qianji .qj span{position:absolute; display:block; cursor:pointer; overflow:hidden;}
+.qianji .qj span.dec{width:10px; height:10px; background:url(../image/dec.jpg) no-repeat; left:3px; bottom:3px;}
+.qianji .qj span.inc{width:10px; height:10px; background:url(../image/inc.jpg) no-repeat; right:3px; bottom:3px;}
+.qianji .qj01{ top:20px; left:5px;}
+.qianji .qj02{ top:20px; left:60px;}
+.qianji .qj03{ top:20px; left:115px;}
+.qianji .qj04{ top:20px; left:170px;}
+.qianji .qj05{ top:20px; left:225px;}
+.qianji .qj06{ top:80px; left:115px;}
+.qianji .qj07{ top:135px; left:35px;}
+.qianji .qj08{ top:135px; left:190px;}
+.qianji .qj09{ top:160px; left:115px;}
+.qianji .qj10{ top:210px; left:35px;}
+.qianji .qj11{ top:210px; left:190px;}
+.qianji .qj12{ top:250px; left:115px;}
+.qianji .qj13{ top:280px; left:35px;}
+.qianji .qj14{ top:280px; left:190px;}
+.qianji .qj15{ top:340px; left:115px;}
+.qianji .qj16{ top:355px; left:35px;}
+.qianji .qj17{ top:355px; left:190px;}
+
+#game-logo{ display:none;}

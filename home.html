@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)chenhuang.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<title>诛仙3职业技能加点模拟器</title>
+	<meta content="诛仙3职业天书神通技能加点模拟器" name="Description" />
+	<meta content="加点模拟器,诛仙模拟器,技能模拟器" name="Keywords" />
+	<link rel="icon" type="image/x-icon" href="image/zx.ico"/> 
+	<link rel="stylesheet" href="css/basic.css">
+	<link rel="stylesheet" href="css/ui.css">
+	<link rel="stylesheet" href="css/ui.progress-bar.css">
+	<script type="text/javascript" src="js/jquery.js"></script> 
+	<script src="js/jquery.overlay.js" type="text/javascript"></script>
+	<script src="js/dww3.js"></script>
+	<script src="js/jquery.tools.min.js"></script> 
+	<link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/qingyunData.js"></script>
+    <script type="text/javascript" src="js/inputData.js"></script>
+    <!--yang -->
+	<script type="text/javascript" src="js/common.js"></script>	
+	<script type="text/javascript" src="js/md5.js"></script>	
+	<script type="text/javascript" src="js/skillController.js"></script>
+	<script type="text/javascript" src="js/zhaoHuaController.js"></script>
+	<!--yang -->	 
+    <script type="text/javascript" src="js/fengShenControllor.js"></script>
+    <script type="text/javascript" src="js/inputController.js"></script>   
+    <script type="text/javascript" src="js/dealURL.js"></script> 
+	<script type="text/javascript" src="js/start.js"></script>
+	<!--yang -->
+	<script type="text/javascript" src="js/relate.js"></script>	
+	<!--	<base target="_blank" /> -->
+	<script type="text/javascript">
+		skill_need = new Array(0,8,24,24,24,24);
+		skill_name = new Array('hehuan','qingyun','qingyun','qingyun','qingyun','qingyun-five');
+		skill_class = new Array('hh hh','qy qy','qy qy','qy qy','qy qy','qy qy');
+		tianshu_class = new Array('yujian','xiuyuan','yujian');
+		tianshu_child_class = new Array('yj yj','xy xy','yj yj');
+		zhaohua_class = new Array('daoshu','fofa','mojie');
+		zhaohua_child_class = new Array('ds ds','ff ff','mj mj');
+	</script>
+	<script type="text/javascript">
+_hiido_no=0;
+_hiido_wid=["_30df660"];
+</script>
+</head>
+<body>
+<!-- {
+{[包含=/public/s/g_nav.html]}
+} -->
+<!-- }站点导航 -->
+<div id="doc">
+	<!-- 头部{ -->
+<link rel="stylesheet" href="css/dwzq-common.css">
+<style>
+/*
+  基本
+*/
+html{background:#294450 url(image/dwzq_html.jpg) repeat-x 0 36px;}
+body{min-width:1000px;font:12px/1.5 tahoma,sans-serif;color:#333;background:url(i/dwzq_body.jpg) no-repeat 50% 36px;}
+a{text-decoration:none;color:#333;}
+a:hover{text-decoration:underline; color:#f00;}
+/*
+  头部元素：背景，颜色，定位
+*/
+#dwzq-header{background:url(i/dwzq_head.jpg) no-repeat;}
+#dwzq-header .mainnav a{background:url(image/bgs_head.png) no-repeat 0 -21px;color:#FFFC04;}
+#dwzq-header .subnav{color:#BDE5FF;}
+#dwzq-header .subnav b{color:#FFF004;}
+#dwzq-header .subnav a{color:#BDE5FF;}
+#dwzq-header .links a,#dwzq-header .links span{color:#FFF004;}
+#dwzq-header .mod-search label{color:#FFFFFF;}
+#dwzq-header .mod-search input{background-color:#FBF6E3;border:1px solid #3C2618;color:#333300;}
+#dwzq-header .mod-search a.btn-submit{text-indent:20px;background:url(image/bgs_head.png) no-repeat 0 0;color:#fff;}
+#rolling-news b{color:#FFFFFF;}
+#rolling-news .mod-art{background-color:#FBF6E3;border:1px solid #3C2618;}
+#rolling-news li a{color:#333300 ;}
+#game-logo{top:15px;left:25px;}
+/*
+  页脚元素：背景，颜色，定位
+*/
+#dwzq-footer{background:#0d0a11 url(i/bg_foot_repeat.png) repeat-x 0 0;}
+#dwzq-footer .mod-search{background:url(i/bg_foot_search.png) no-repeat;}
+#dwzq-footer .mod-search a.btn-submit{color:#750303;}
+#dwzq-footer .mod-search a.back-to-top{color:#FFFFFF;}
+#dwzq-footer .game-map li{border-color:#48464b;}
+#dwzq-footer .game-map li b{color:#EBE5DD;}
+#dwzq-footer .game-map li a{color:#EBE5DD;}
+#dwzq-footer .friend-link{background-color:#3a373b;}
+#dwzq-footer .bd{color:#DCD7FF;}
+#dwzq-footer .friend-link b{color:#FFFFFF;}
+#dwzq-footer .friend-link a{color:#DCD7FF;}
+#footer{color:#ebe5dd;}
+#footer a{color:#ebe5dd;}
+/*
+  覆盖旧版
+*/
+</style>
+    <script>
+        $(function(){
+            $('#dwzq-header').append('<a href="http:\/\/www.50zhou.com\?rdomain\=www.duowan.com" class="btn-jiaoyi"><\/a>');
+        })
+    </script>
+<script>
+        $(function(){
+            $('#dwzq-header .links').prepend('<a href="http:\/\/zx.duowan.com\/wap\/index.html" title="诛仙手机版" style="color:#f00;">手机版<\/a>');
+        })
+    </script>
+
+    <style>
+        #dwzq-header .btn-jiaoyi{display:block;width:99px;height:27px;position:absolute;top:161px;right:140px;background:url(/public/assets/sys/img/btn_jiaoyi_06091542.png) no-repeat 0 0;}
+    </style>
+	<!-- }头部 -->
+	<!-- 主内容{ -->
+	<div class="sim">
+		<div class="sim-nav">
+			<ul>
+				<span>人族 </span>
+				<li><a href="青云.html">青云</a></li>
+				<li><a href="合欢.html">合欢</a></li>
+				<li><a href="鬼王.html">鬼王</a> </li>
+				<li><a href="天音.html">天音</a> </li>
+				<li><a href="鬼道.html">鬼道</a> </li>
+				<li><a href="焚香.html">焚香</a></li>			
+			</ul>
+			<div class="blank10 mb10"></div>
+			<ul>
+				<span>神族</span> 
+				<li><a href="九黎.html">九黎</a></li>
+				<li><a href="烈山.html">烈山</a></li>
+				<li><a href="怀光.html">怀光</a></li>
+				<li><a href="天华.html">天华</a></li>
+				<li><a href="太昊.html">太昊</a></li>
+				<li><a href="辰皇.html">辰皇</a></li>
+			</ul>
+			<div class="blank10 mb10"></div>
+			<ul>
+				<span>天脉</span> 
+				<li><a href="牵机.html">牵机</a></li>
+				<li><a href="英招.html">英招</a></li>
+				<li><a href="青罗.html">青罗</a></li>
+				<li><a href="破军.html">破军</a></li>
+				<li><a href="归云.html">归云</a></li>
+				<li><a href="画影.html">画影</a></li>
+			</ul>
+			<div class="blank10 mb10"></div>
+			<ul>
+				<span>苍祇</span> 
+				<li><a href="逐霜.html">逐霜</a></li>
+			</ul>
+			<div class="explain">
+				<p><b>《诛仙3》职业加点模拟器V3.0说明：</b></p>
+				<p>1、本模拟器由多玩诛仙加点模拟器修改而来；</p>
+			  <p>2、多玩诛仙官网：<a href="http://zx.duowan.com">zx.duowan.com</a>；</p>
+			  	<p>3、支持4种族全部19职业；</p>
+				<p>4、等级上限扩展至170级，元神上限扩展至81级；</p>				
+				<p>5、修复大量技能错误，更新部分技能描述；</p>
+				<p>6、冷门阵营的少量神通和造化技能数据可能存在问题；</p>
+				<p>7、<a href="http://bbs.duowan.com/thread-46288601-1-1.html">点此反馈问题或下载最新版本</a>；</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;————苍天战区君子如风卡级帮：万古恨</p>
+			</div>
+		</div>
+	<script type="text/javascript">
+	KISSDW.tabs("#tab1", {event: "hover"});
+	KISSDW.tabs("#tab1 .mod-tabs-s2", {event: "hover"});
+	KISSDW.tabs("#tab1 .mod-tabs-s3", {event: "hover"});
+	</script>
+	<!-- } -->
+	<div class="share">
+	<font size="5" color="#ffffff">↑↑↑↑↑↑↑</font><br/>
+	<font size="5" color="#ffffff">请点击对应职业名称进入模拟器，暂不支持【牵机】</font>
+	</div>
+	</div>
+	<!-- }主内容 -->
+</div>
+
+</body></html>

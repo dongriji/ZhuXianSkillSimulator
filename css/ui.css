@@ -1,0 +1,18 @@
+
+#container {
+  z-index: 3000; 
+  padding: 10px; 
+  width: 640px;
+  margin: 0pt auto; 
+  opacity: 1; 
+	top: 30%; 
+	left: 25%;
+ /* margin: 0 auto; */
+ /* width: 460px; */
+  font-size: 62.5%;
+/*  background: #DCDDDF; */
+  z-index: 3000;
+  position:absolute;
+ /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0.65, rgba(255,255,255,0.558)), color-stop(1, rgba(255,255,255,1)));
+  background: -moz-linear-gradient(rgba(255,255,255,0.558) 65%, rgba(255,255,255,1) 100%); */
+}

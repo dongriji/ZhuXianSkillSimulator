@@ -1,0 +1,95 @@
+body {
+
+}
+#skillAndBookDataDiv{
+	position:absolute;
+	color:#ffffff;
+	width:610px;
+	display:none;
+	//float:left;
+}
+
+#bookDataDiv{
+	position:absolute;
+	color:#ffffff;
+	width:440px;
+	display:none;
+	//float:left;
+}
+
+#fengshenDataDiv{
+	position:absolute;
+	color:#ffffff;
+	width:610px;
+	height:700px;
+	display:none;
+	//float:left;
+}
+#zhaohuaDiv{
+	position:absolute;
+	color:#ffffff;
+	width:640px;
+	height:700px;
+	display:none;
+	//float:left;
+}
+
+#errMessageDataDiv{
+	position:absolute;
+	color:#ffffff;
+	width:210px;
+	height:700px;
+	display:none;
+	//float:left;
+}
+
+
+
+.skillOrBookData{
+
+	background:url(../image/shuiyin.png) repeat; 
+	color:#fff; 
+	width:290px; 
+	height:auto; 
+	border:1px #FFFFCC solid; 
+	font-size:12px; 
+	z-index:999;
+	padding:5px;
+	display:none;
+	float:left;
+}	
+/*	background:url(../image/shuiyin.png) repeat;
+	color:#fff; 
+	width:200px; 
+	height:auto; 
+	border:1px #FFFFCC solid; 
+	font-size:12px; 
+	z-index:999;
+	padding:5px;
+	display:none;
+	float:left;*/
+
+
+/*.temp_fengShenData{
+	//position:absolute;
+	//background:url(../image/shuiyin.png) repeat; 
+	color:#fff; 
+	width:200px; 
+	height:auto; 
+	border:1px #FFFFCC solid; 
+	font-size:12px; 
+	z-index:999; 
+	padding:5px;
+	float:right;
+}*/
+
+
+.ZDhighlight {
+
+	border:2px #FF0000 solid;
+	/*background:url(../image/newblue.gif) no-repeat;*/
+}
+.BDhighlight {
+	border:2px #00ff00 solid;
+	/*background:url(../image/newred.gif) no-repeat;*/
+}
